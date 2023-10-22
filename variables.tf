@@ -1,24 +1,24 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-variable "region" {
+variable "AWS_REGION" {
   description = "AWS region"
   type        = string
   default     = "us-west-2"
 }
 
-variable "aws_access_key" {
+variable "AWS_ACCESS_KEY_ID" {
   description = "AWS access key"
   type        = string
   
 }
-variable "aws_secret_key" {
+variable "AWS_SECRET_ACCESS_KEY" {
   description = "AWS secret key"
   type        = string
   
 }
 
-variable "organization" {
+variable "TF_CLOUD_ORGANIZATION" {
   description = "Organization name"
   type        = string
   default     = "Phalanx_Spear"
