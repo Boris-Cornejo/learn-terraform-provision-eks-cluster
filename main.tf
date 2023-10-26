@@ -65,7 +65,7 @@ module "eks" {
     ami_type = "AL2_x86_64"
 
   }
-
+  #Node group
   eks_managed_node_groups = {
     one = {
       name = "node-group-1"
