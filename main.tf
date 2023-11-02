@@ -73,7 +73,7 @@ module "eks" {
       instance_types = ["t3.medium"]
 
       min_size     = 2
-      max_size     = 3
+      max_size     = 4
       desired_size = 3
     }
 
@@ -83,7 +83,7 @@ module "eks" {
       instance_types = ["t3.medium"]
 
       min_size     = 2
-      max_size     = 3
+      max_size     = 4
       desired_size = 3
     }
 
