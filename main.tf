@@ -74,7 +74,7 @@ module "eks" {
 
       min_size     = 1
       max_size     = 3
-      desired_size = 2
+      desired_size = 3
     }
 
     two = {
@@ -84,7 +84,7 @@ module "eks" {
 
       min_size     = 1
       max_size     = 3
-      desired_size = 1
+      desired_size = 3
     }
 
   }
